@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #17d1ac;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration: none;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  font-family: century gothic;
+  position: relative;
+
+}
+
+#home img{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  float: right;
+  display: flex;
+  height: 100vh;
+  width: 35%;
+  justify-content: right;
+  align-items: right;
+}
+
+#home img:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  background-color: rgba(255, 235, 205, 0.411);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  padding: 10px 15px;
+  color: rgb(151, 139, 120);
+  font-size: 12px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #292929;
+}
+
+.lang {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #292929;
+}
+
+.menu li a:hover,
+.active {
+  background-color: #292929;
+  box-shadow: 0 0 5px #17d1ac,
+    0 0 25px #17d1ac,
+    0 0 50px #17d1ac,
+    0 0 100px #17d1ac;
+  font-size: 14px;
+  color: rgb(255, 235, 205);
+
+}
+
+.home-text {
+  font-family: century gothic;
+  width: 500px;
+  top: 50%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-20%, -50%);
+  text-align: center;
+}
+
+.details {
+  color: #6c707c;
+  font-size: 16px;
+  font-style: italic;
+
+}
+
+.hamza {
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+}
+
+#home button {
+  padding: 10px 30px;
+  border: none;
+  background-color: blanchedalmond;
+  margin-top: 1rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.9);
+
+}
+
+#home button:hover {
+
+  box-shadow: 0 0 5px #292929,
+    0 0 25px #292929,
+    0 0 50px #292929,
+    0 0 100px #292929;
+   font-size: 16px;
+   color: #17d1ac;
+   transition: all ease 0.3s;
+}
+#about{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 235, 205, 0.459);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: century gothic;
+  position: relative;
+
+}
+.about-text{
+  width: 600px;
+  top: 50%;
+  left: 80%;
+  position: absolute;
+  transform: translate(-80%, -50%);
+  text-align: center;
+  
+}
+.about-text h1{
+  color: #6c707c;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: bold;
+}
+.about-text h2{
+  font-style: italic;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+
+}
+.about-img{
+  height: 100vh;
+  width: 400px;
+
+}
+.about-img img{
+  margin-top: -1rem;
+  height: 103%;
+  margin-left: 2rem;
+}
+.about-text p{
+  color: #6c707c;
+  font-size: 1.2rem;
+}
+
+#services{
+  width: 100%;
+  height: 100vh;
+  margin-top: -2rem;
+  font-family: century gothic;
+  background-color: rgba(255, 235, 205, 0.548);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+
+}
+#services .services-h1{
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-style: italic;
+  color: #292929;
+
+}
+.services-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #292929;
+  font-size: 1.2rem;
+  margin-top: -1rem;
+}
+img{
+  height: 100%;
+  width: 100%;
+  width: 85%;
+ 
+}
+.images{
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin: 1rem;
+  background-color: rgba(255, 235, 205, 0.527);
+  border-radius: 5px;
+}
+.service-images{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#services h2{
+  margin-bottom: -2rem;
+}
+.images:hover{
+  transform: translateY(-10px);
+  background-color: #17d1ac5e;
+  box-shadow: 0 0 5px #17d1ac,
+    0 0 25px #17d1ac,
+    0 0 50px #17d1ac,
+    0 0 100px #17d1ac;
+}
+
+
